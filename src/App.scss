@@ -1,0 +1,157 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+body {
+  background-color: lightgray;
+}
+
+#bottombar {
+  background: white;
+  height: 7vh;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+#topbar {
+  background: white;
+  height: 7vh;
+}
+
+#content {
+  margin: 0px;
+  border: none;
+  margin-top: 7vh;
+  margin-bottom: 7vh;
+  height: 86vh;
+  width: 100vw;
+}
+
+.search-input {
+  border-radius: 30px;
+  text-align: center;
+}
+
+#search-page {
+  .row {
+    margin-bottom: 20px;
+  }
+  background: rgba(0, 0, 0, 0.5) !important;
+  min-height: 80vh;
+  padding: 20px;
+
+  .search-img {
+    height: 90px;
+    width: 90px;
+    background: black;
+    border: white 2px solid;
+  }
+
+  .item-desc {
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.img-square {
+  border: white 1.3px solid;
+  
+}
+.car-1,.car-big-1{
+  background-image:url('./assets/img/car1.jpg')!important;
+  background-size:contain!important;
+}
+.car-2,.car-big-2{
+  background-image:url('./assets/img/car2.jpg')!important;
+  background-size:contain!important;
+}
+.car-3,.car-big-3{
+  background-image:url('./assets/img/car3.jpg')!important;
+  background-size:contain!important;
+}
+.car-4,.car-big-4{
+  background-image:url('./assets/img/car4.jpg')!important;
+  background-size:contain!important;
+}
+.car-5,.car-big-5{
+  background-image:url('./assets/img/car1.jpg')!important;
+  background-size:contain!important;
+}
+.stretch{
+  background-size:cover!important;
+}
+.blurred{
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+.modal-backdrop{
+ 
+  width:100%;
+}
+
+#modal {
+ 
+  
+  width: 100% !important;
+  max-width:initial;
+ 
+
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  .modal-content {
+    background: none;
+    padding: 20px;
+    @media screen and(min-width:1024px){
+      width:40%
+    }
+
+    .car-1{
+      
+    }
+    .modal-header {
+      
+      button{
+        background:none;
+        border:none;
+        color:black;
+        padding:0px;
+      }
+      background:white;
+      span{
+        color:red;
+        font-size:1.5;
+        font-weight: bold;
+        opacity: 1;
+      }
+     
+    }
+    .modal-body {
+      background: white;
+   
+   
+    }
+    .modal-footer {
+      border: none;
+      justify-content: space-between;
+      padding:10px;
+      background:lightgray;
+      p{
+      margin:0px;
+      
+      }
+    }
+  }
+ 
+  background: rgba(0, 0, 0, 0.1);
+  margin: 0px;
+}
+.modal{
+  &.fade{
+    height:100vh!important;
+    margin-top:10px;
+
+    
+  }
+ 
+}
