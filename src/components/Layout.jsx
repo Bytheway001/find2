@@ -28,7 +28,7 @@ class Layout extends React.Component {
                         <Nav.Item style={{ fontSize: 20 }}><span >1234</span> <i className='fa fa-star' style={{ color: 'gold' }} /></Nav.Item>
                     </Nav>
                 </Navbar>
-                <div id='content'>
+                <div id='content' {...this.props}>
                     {this.props.children}
                 </div>
                 <Navbar fluid fixed='bottom' id='bottombar'>

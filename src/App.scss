@@ -155,3 +155,29 @@ body {
   }
  
 }
+
+.igBackground{
+  background-color: white;
+  background-image: url('./assets/img/iglogo.jpg');
+  background-size: cover;
+  opacity: 1;
+  background-position:-350px -200px;
+  background-size: 140%;
+  background-repeat: no-repeat;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .card{
+    background:black;
+    opacity:0.9;
+    margin:5px;
+
+    p{
+      color:white;
+      font-size:10pt;
+      margin-bottom:2px;
+    }
+  }
+
+}
